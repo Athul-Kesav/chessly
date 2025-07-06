@@ -59,6 +59,33 @@ This project is a personal challenge to:
 
 ## 📌 How to Run
 
+Follow the steps below to run the project locally on your machine:
+
+### 1. Clone the Repository
+
+If you haven't already cloned the project from GitHub, run:
+
+```bash
+git clone https://github.com/Athul-Kesav/chessly.git
+cd chessly\chess_frontend\
+```
+
+### 2. Install Dependencies
+
 ```bash
 npm install
-npm run dev```
+```
+
+This will install all packages listed in package.json.
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+This will start a local development server. By default, the app will be available at:
+
+```bash
+http://localhost:5173
+```
