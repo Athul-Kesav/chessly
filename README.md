@@ -10,7 +10,6 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 - Turn-based movement with highlighting
 - Capture tracking with live scores
 - Castling and check detection
-- Fully responsive and customizable
 
 ## ✅ Tech Stack
 
@@ -27,6 +26,7 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 - [ ] **Castling logic**: Add path obstruction checks  
 - [ ] **Check rule enforcement**: Restrict moves to only those that escape check  
 - [ ] **Pawn promotion**: Implement choice of piece on reaching the final rank  
+- [ ] **Responsiveness**: Add full responsiveness and customizability, supporting mobile screens as well
 
 ## 📁 Project Structure
 
@@ -48,6 +48,7 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 ### backend
 
 Still under development
+To be used to add realtime game logic with **socket.io**
 
 ## 🧠 Learning Goals
 
