@@ -20,7 +20,7 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 
 ## 📸 Screenshots
 
-> *(Add screenshots here if available — maybe a gif showing piece movement and check detection!)*
+![Demo GIF](demo.gif)
 
 ## ⚒️ Still in Progress
 
@@ -32,6 +32,7 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 
 ### frontend
 
+```bash
 /src
 ├── components/
 │ └── BoardUI.jsx # Main board UI with state handling
@@ -42,6 +43,7 @@ All game logic, board setup, piece movement, capturing, and score tracking are i
 │ ├── MoveValidator.js # Core move validation logic
 │ └── checkFinder.js   # Check detection logic
 └── App.jsx
+```
 
 ### backend
 
