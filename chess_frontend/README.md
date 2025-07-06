@@ -1,12 +1,30 @@
-# React + Vite
+# Chess Game Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend for a fully functional chess game built from scratch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Interactive chessboard with drag-and-drop piece movement  
+- Basic move validation for all pieces  
+- Castling logic (work in progress)  
+- Check detection and prevention (under development)  
+- Display of captured pieces
+- State management using React hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Pending
+
+- Implement stalemate and checkmate detection
+- Add move history and undo functionality
+- Improve UI/UX and animations
+- Add multiplayer support (future)
+
+---
+
+## Note
+
+- The current implementation handles most piece moves and captures but is still improving castling and check handling.
+- Contributions and suggestions are welcome!
